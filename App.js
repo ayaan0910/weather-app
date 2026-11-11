@@ -73,7 +73,7 @@ export default function App() {
  if (loading) {
   return (
     <View style={styles.center}>
-      <Text style={styles.name}>Welcome Bro!!!!!</Text>
+      <Text style={styles.name}>Hey there Buddy, How ya doin!!!!!</Text>
 
       <ActivityIndicator size="large" color="#1066e1" />
 
@@ -87,7 +87,7 @@ export default function App() {
   return ( 
     <View style={styles.container}> 
       {error && <Text style={styles.errorText}>{error}</Text>} 
-      <Text style={styles.name}>Welcome Bro!!!!!</Text>
+      <Text style={styles.name}>Welcome to my weather app!!!!!</Text>
       <View style={styles.weatherCard}> 
         <Text style={styles.cityText}>{cityName}</Text> 
         {weather && ( 
