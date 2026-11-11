@@ -73,7 +73,7 @@ export default function App() {
  if (loading) {
   return (
     <View style={styles.center}>
-      <Text style={styles.name}>Welcome Bro!!!!!</Text>
+      <Text style={styles.name}>Welcome Ayaan, How ya doin??!!!!!</Text>
 
       <ActivityIndicator size="large" color="#1066e1" />
 
